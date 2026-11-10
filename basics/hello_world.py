@@ -24,8 +24,14 @@ a = 10
 b = 10 
 print(a+b)
 
+def chai(n):
+    print(n)
+
+chai(10)
+chai(20)
+chai(30)
+
 a = int(input("Enter first number : ")) 
 b = int(input("Enter second number : "))
 
 print("sum of two number = ", a + b)
-
