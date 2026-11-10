@@ -1,4 +1,4 @@
-//String are immutable
+# string are immutable
 name = "Usaid"
 print(len(name))
 nameShort = name[0: 4]
