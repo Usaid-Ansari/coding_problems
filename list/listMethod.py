@@ -13,3 +13,6 @@ print("Sorted List : ",L1)
 name = ["Rasshad", "Abdullah", "Abdurahman", "Hammad"]
 name.sort()
 print(name)
+name1 = ["Ali", "Ahmed"]
+name1.append("Mazin")
+print(name1)
