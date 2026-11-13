@@ -16,3 +16,8 @@ print(name)
 name1 = ["Ali", "Ahmed"]
 name1.append("Mazin")
 print(name1)
+numbers = [40, 20, 50, 10, 60]
+result  =  numbers.sort()
+print(result)
+items = [5, 10, 15, 20]
+print(items[2])
