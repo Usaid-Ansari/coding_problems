@@ -10,6 +10,8 @@ L1 = [41, 21, 13, 15, 16, 22]
 print(L1)
 L1.sort()
 print("Sorted List : ",L1)
+L1.reverse()
+print("reverse list : ", L1)
 name = ["Rasshad", "Abdullah", "Abdurahman", "Hammad"]
 name.sort()
 print(name)
