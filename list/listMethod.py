@@ -14,6 +14,8 @@ L1.reverse()
 print("reverse list : ", L1)
 L1.insert(3, 421)
 print("Inserted List : ", L1)
+L1.pop(2)
+print("Popped List : ", L1)
 name = ["Rasshad", "Abdullah", "Abdurahman", "Hammad"]
 name.sort()
 print(name)
