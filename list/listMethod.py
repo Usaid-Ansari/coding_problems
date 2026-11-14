@@ -12,6 +12,8 @@ L1.sort()
 print("Sorted List : ",L1)
 L1.reverse()
 print("reverse list : ", L1)
+L1.insert(3, 421)
+print("Inserted List : ", L1)
 name = ["Rasshad", "Abdullah", "Abdurahman", "Hammad"]
 name.sort()
 print(name)
@@ -19,8 +21,8 @@ name1 = ["Ali", "Ahmed"]
 name1.append("Mazin")
 print(name1)
 numbers = [40, 20, 50, 10, 60]
-result  =  numbers.sort()
-print(result)
+numbers.sort()
+print(numbers)
 items = [5, 10, 15, 20]
 print(items[2])
 print(items[0:3])  # slicing
