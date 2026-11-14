@@ -21,3 +21,7 @@ result  =  numbers.sort()
 print(result)
 items = [5, 10, 15, 20]
 print(items[2])
+print(items[0:3])  # slicing
+
+
+
