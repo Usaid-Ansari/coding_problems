@@ -37,3 +37,5 @@ fruits = ["Mango", "Apple", "Banana"]
 x = sorted(fruits)
 print(fruits)
 print(x)
+fruits.insert(1,"Watermelon")
+print(fruits)
