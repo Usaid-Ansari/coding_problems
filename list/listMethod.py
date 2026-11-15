@@ -29,5 +29,11 @@ items = [5, 10, 15, 20]
 print(items[2])
 print(items[0:3])  # slicing
 
+fruits = ["Mango", "Apple", "Banana"]
+# x = fruits.sort()
+# print(fruits)
+# print(x)
 
-
+x = sorted(fruits)
+print(fruits)
+print(x)
