@@ -1,4 +1,13 @@
 thistuple = ("apple", "banana", "cherry")
 print(type(thistuple))
+print(thistuple[1])
 a = (1, )
 print(type(a))
+
+numbers = (10, 20, 10, 30, 10, 40)
+print(numbers.count(10))
+print(numbers.index(10))
+print("Max number present in tuple : ", max(numbers))
+print("Min number present in tuple : ", min(numbers))
+print("Sum of all number present in tuple : ", sum(numbers))
+print("All the element present in tuple in the Sorted form : ", sorted(numbers))
