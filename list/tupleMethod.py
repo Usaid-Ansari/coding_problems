@@ -11,3 +11,25 @@ print("Max number present in tuple : ", max(numbers))
 print("Min number present in tuple : ", min(numbers))
 print("Sum of all number present in tuple : ", sum(numbers))
 print("All the element present in tuple in the Sorted form : ", sorted(numbers))
+
+# Operation in Tuple 
+# Accessing elements
+n = (10, 20, 30, 40)
+print(n)
+print(n[0])
+print(n[2])
+
+# Slicing
+num = (10, 20, 30, 40, 50)
+print(num[1:4])
+print(num[:3])
+print(num[::-1])
+
+# Concatenation = combine the two tuples
+a = (10, 20, 30)
+b = (40, 50)
+print("Concatenate = ", a + b)
+
+# Repetition = Repeat the tuples
+repeat = (10, 20)
+print(repeat * 3)
