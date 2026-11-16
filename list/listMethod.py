@@ -41,3 +41,23 @@ fruits.insert(1,"Watermelon")
 print(fruits)
 fruits.remove("Apple")
 print(fruits)
+
+thislist = ["apple", "banana", "cherry", "banana", "kiwi"]
+thislist.remove("banana")
+print(thislist)
+thislist.pop(2)
+print(thislist)
+
+# The del keyword also removes the specified index:
+thislist = ["apple", "banana", "cherry"]
+del thislist[0]
+print(thislist)
+
+thisList = ["round", "cycle", "toy"]
+del thisList[1]
+print(thisList)
+
+# The clear() method empties the list.
+thislist = ["apple", "banana", "jamun", "orange"]
+thislist.clear()
+print(thislist)
