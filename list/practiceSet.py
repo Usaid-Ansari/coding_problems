@@ -19,20 +19,25 @@
 # print(fruitss)
 
 # Write a  program to accept marks of 6 students and display them in sorted manner
-marks = []
+# marks = []
 
-m1 = int(input("Enter marks here : "))
-marks.append(m1)
-m2 =  int(input("Enter marks here : "))
-marks.append(m2)
-m3 =  int(input("Enter marks here : "))
-marks.append(m3)
-m4 =  int(input("Enter marks here : "))
-marks.append(m4)
-m5 =  int(input("Enter marks here : "))
-marks.append(m5)
-m6 =  int(input("Enter marks here : "))
-marks.append(m6)
+# m1 = int(input("Enter marks here : "))
+# marks.append(m1)
+# m2 =  int(input("Enter marks here : "))
+# marks.append(m2)
+# m3 =  int(input("Enter marks here : "))
+# marks.append(m3)
+# m4 =  int(input("Enter marks here : "))
+# marks.append(m4)
+# m5 =  int(input("Enter marks here : "))
+# marks.append(m5)
+# m6 =  int(input("Enter marks here : "))
+# marks.append(m6)
 
-marks.sort()
-print(marks)
+# marks.sort()
+# print(marks)
+
+# Check that a tuple cannot be changed in python 
+a = (34, 245, "tuple")
+a[2] = "tony"
+print(a)   #  because tuple is immutable
