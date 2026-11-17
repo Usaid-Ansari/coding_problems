@@ -33,3 +33,8 @@ print("Concatenate = ", a + b)
 # Repetition = Repeat the tuples
 repeat = (10, 20)
 print(repeat * 3)
+
+# Quick practice
+data  = (5, 10, 5, 20, 5, 30)
+print(data.count(5))
+print(data.index(20))
