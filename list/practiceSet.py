@@ -1,19 +1,38 @@
-# Write a program to store seven fruits in a list enterd by the user
-fruits = []
+# Write a program to store seven fruitss in a list enterd by the user
+# fruitss = []
 
-f1 = input("Enter fruit name : ")
-fruits.append(f1)
-f2 = input("Enter fruit name : ")
-fruits.append(f2)
-f3 = input("Enter fruit name : ")
-fruits.append(f3)
-f4 = input("Enter fruit name : ")
-fruits.append(f4)
-f5 = input("Enter fruit name : ")
-fruits.append(f5)
-f6 = input("Enter fruit name : ")
-fruits.append(f6)
-f7 = input("Enter fruit name : ")
-fruits.append(f7)
+# m1 = input("Enter fruits name : ")
+# fruitss.append(m1)
+# m2 = input("Enter fruits name : ")
+# fruitss.append(m2)
+# m3 = input("Enter fruits name : ")
+# fruitss.append(m3)
+# f4 = input("Enter fruits name : ")
+# fruitss.append(f4)
+# f5 = input("Enter fruits name : ")
+# fruitss.append(f5)
+# f6 = input("Enter fruits name : ")
+# fruitss.append(f6)
+# f7 = input("Enter fruits name : ")
+# fruitss.append(f7)
 
-print(fruits)
+# print(fruitss)
+
+# Write a  program to accept marks of 6 students and display them in sorted manner
+marks = []
+
+m1 = int(input("Enter marks here : "))
+marks.append(m1)
+m2 =  int(input("Enter marks here : "))
+marks.append(m2)
+m3 =  int(input("Enter marks here : "))
+marks.append(m3)
+m4 =  int(input("Enter marks here : "))
+marks.append(m4)
+m5 =  int(input("Enter marks here : "))
+marks.append(m5)
+m6 =  int(input("Enter marks here : "))
+marks.append(m6)
+
+marks.sort()
+print(marks)
