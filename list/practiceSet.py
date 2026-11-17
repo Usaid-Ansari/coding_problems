@@ -38,6 +38,10 @@
 # print(marks)
 
 # Check that a tuple cannot be changed in python 
-a = (34, 245, "tuple")
-a[2] = "tony"
-print(a)   #  because tuple is immutable
+# a = (34, 245, "tuple")
+# a[2] = "tony"
+# print(a)   #  because tuple is immutable
+
+# Write a program to sum a list with 4 numbers
+num = [2, 4, 1, 15, 17]
+print("the sum of the number is : ", sum(num))
