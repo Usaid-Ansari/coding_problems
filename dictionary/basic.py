@@ -31,3 +31,18 @@ x = thisdict.keys()
 print(x)
 x = thisdict.values()
 print(x) 
+
+# practice
+car = {
+"brand": "BMW",
+"model": "5 series",
+"year": 2024,
+}
+
+x = car.keys()
+
+print(x) #before the change
+
+car["color"] = "black"
+
+print(x) #after the change
