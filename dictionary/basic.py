@@ -25,3 +25,9 @@ print(thedict["model"])
 # There is also a method called get() that will give you the same result:
 x = thedict.get("year")
 print(x)
+
+# The keys() method will return a list of all keys in the dictionary
+x = thisdict.keys()
+print(x)
+x = thisdict.values()
+print(x) 
