@@ -40,9 +40,15 @@ car = {
 }
 
 x = car.keys()
-
 print(x) #before the change
-
 car["color"] = "black"
-
 print(x) #after the change
+
+# Change Values
+newCar = {
+    "brand": "Toyota",
+    "model": "Fortuner",
+    "year": 2018,
+}
+newCar["year"] = 2022
+print(newCar)
