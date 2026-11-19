@@ -52,3 +52,16 @@ newCar = {
 }
 newCar["year"] = 2022
 print(newCar)
+
+# Update Dictionary
+newCar.update({"year": 2021})
+print(newCar)
+
+# The pop method remove the item
+car1 = {
+    "brand": "audi",
+    "model": "M7",
+    "year": 2023
+}
+car1.pop("model")
+print(car1)
