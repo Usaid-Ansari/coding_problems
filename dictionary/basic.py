@@ -65,3 +65,10 @@ car1 = {
 }
 car1.pop("model")
 print(car1)
+
+marks = {
+    "Zack": 100,
+    "Jack": 98,
+}
+print(marks.get("Zack2"))
+print(marks["Zack2"]) 
