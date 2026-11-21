@@ -16,3 +16,10 @@ new_student = student.copy() # Copy the dictionary
 print(new_student)
 student.clear() # Clear the dictionary
 print(student)
+
+#Practice Challenge
+car = {"brand": "Toyota", "year": 2018}
+car.update({"year": 2022})
+print(car["year"])
+car.pop("brand")
+print(car)
