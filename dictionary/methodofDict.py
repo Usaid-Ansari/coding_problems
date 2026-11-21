@@ -7,3 +7,5 @@ student = {
 print(student.keys())
 print(student.values())
 print(student.items())
+student.pop("city")
+print(student)
