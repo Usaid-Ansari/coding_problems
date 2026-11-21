@@ -70,5 +70,6 @@ marks = {
     "Zack": 100,
     "Jack": 98,
 }
-print(marks.get("Zack2"))
-print(marks["Zack2"]) 
+print(marks.get("Zack")) 
+print(marks["Zack"])  
+
