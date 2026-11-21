@@ -12,3 +12,7 @@ print(student)
 print(student.get("marks2"))
 student.popitem() # Remove the last element on the dictionary
 print(student)
+new_student = student.copy() # Copy the dictionary
+print(new_student)
+student.clear() # Clear the dictionary
+print(student)
