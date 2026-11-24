@@ -12,7 +12,11 @@
 # print(set2)
 
 # update method 
-set3 = {1, 10, 4, 6, 8}
-set3.update([2, 3, 15, 7])
-print(set3)
+# set3 = {1, 10, 4, 6, 8}
+# set3.update([2, 3, 15, 7])
+# print(set3)
 
+# remove method
+set4 = {10, 1, 50, 70, 30}
+set4.remove(70)
+print(set4)
