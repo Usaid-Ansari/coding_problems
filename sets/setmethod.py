@@ -7,6 +7,12 @@
 
 # set method
 # add method
-set2 = {1, 4, 3, 2, 25, 25, 71}
-set2.add(5)
-print(set2)
+# set2 = {1, 4, 3, 2, 25, 25, 71}
+# set2.add(5)
+# print(set2)
+
+# update method 
+set3 = {1, 10, 4, 6, 8}
+set3.update([2, 3, 15, 7])
+print(set3)
+
