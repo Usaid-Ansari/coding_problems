@@ -22,6 +22,13 @@
 # print(set4)
   
 # discard method  (Removes element safely.) Note:No error if not found
-set5 = {10, 1, 50, 70, 30}
-set5.discard(70)
-print(set5)
+# set5 = {10, 1, 50, 70, 30}
+# set5.discard(1000)
+# print(set5)
+
+# union method (Combines two sets or more sets)
+a = {1, 2, 3}
+b = {3, 4, 5}
+c = {6, 7, 8}
+print(a.union(b, c))
+
