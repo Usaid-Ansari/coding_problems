@@ -17,6 +17,11 @@
 # print(set3)
 
 # remove method
-set4 = {10, 1, 50, 70, 30}
-set4.remove(70)
-print(set4)
+# set4 = {10, 1, 50, 70, 30}
+# set4.remove(70)
+# print(set4)
+  
+# discard method  (Removes element safely.)
+set5 = {10, 1, 50, 70, 30}
+set5.discard(70)
+print(set5)
