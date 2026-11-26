@@ -36,3 +36,5 @@ print(a.union(b, c))
 x = {"a", "b", "c"}
 y = (1, 2, 3)
 print(x.union(y))
+x.update(y)
+print(x)
