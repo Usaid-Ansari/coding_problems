@@ -27,14 +27,20 @@
 # print(set5)
 
 # union method (Combines two sets or more sets)
-a = {1, 2, 3}
-b = {3, 4, 5}
-c = {6, 7, 8}
-print(a.union(b, c))
+# a = {1, 2, 3}
+# b = {3, 4, 5}
+# c = {6, 7, 8}
+# print(a.union(b, c))
 
 # Join a Set and a Tuple
-x = {"a", "b", "c"}
-y = (1, 2, 3)
-print(x.union(y))
-x.update(y)
-print(x)
+# x = {"a", "b", "c"}
+# y = (1, 2, 3)
+# print(x.union(y))
+# x.update(y)
+# print(x)
+
+# Use & to find a common element in two sets
+set6 = {"apple", "banana", "cherry"}
+set7 = {"google", "microsoft", "apple"}
+set8 = set6 & set7 
+print(set8)
