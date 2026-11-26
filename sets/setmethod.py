@@ -32,3 +32,7 @@ b = {3, 4, 5}
 c = {6, 7, 8}
 print(a.union(b, c))
 
+# Join a Set and a Tuple
+x = {"a", "b", "c"}
+y = (1, 2, 3)
+print(x.union(y))
